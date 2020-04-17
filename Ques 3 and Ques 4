@@ -1,0 +1,40 @@
+Q3- What are the advantages of TestNG & TestNG annotations?
+
+TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use.TestNG is designed to cover all categories of tests:  unit, functional, end-to-end, integration, etc.
+
+The main advantage of testNG can be listed as follows:
+    • Annotations.
+    • Run your tests in arbitrarily big thread pools with various policies available (all methods in their own thread, one thread per test class, etc...).
+    • Test that your code is multithread safe.
+    • Flexible test configuration.
+    • Support for data-driven testing (with @DataProvider).
+    • Support for parameters.
+    • Powerful execution model (no more TestSuite).
+    • Supported by a variety of tools and plug-ins (Eclipse, IDEA, Maven, etc...).
+    • Embeds BeanShell for further flexibility.
+    • Default JDK functions for runtime and logging (no dependencies).
+    • Dependent methods for application server testing.
+    • It has different assertions that helps in checking the expected and actual results
+    • Detailed (HTML) reports
+
+
+Advantages Of TestNG Annotations in Selenium:
+    • They are easy to understand.
+    • You can group test cases using appropriate annotations.
+    • You can do parallel test.
+    • You can pass extra parameters for annotation.
+    • They are strongly typed, so the compiler will completely catch any errors.
+
+Q4- Print the order of TestNG annotations?
+
+Sequence of Execution of the annotations:
+    1. BeforeSuite
+    2. BeforeTest
+    3. BeforeClass
+    4. BeforeMethod
+    5. Test
+    6. AfterMethod
+    7. AfterClass
+    8. AfterTest
+    9. AfterSuite
+
